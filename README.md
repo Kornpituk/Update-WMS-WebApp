@@ -70,4 +70,4 @@
       - Mock Data Category จะเป็น ข้อมูล ที่ สำเร็จแล้วทั้งหมด ของ Received [ PO, Transfer In,
       - Other ] / Received [ Transfer Out, Delivery, White Off ]
       - Mock  Data Item จะเป็นการนำข้อมูล  Mock Data Category มาหาค่าเฉลี่ยน
-    ** ปรับ ช่องเลือก ช่วงเวลาที่ จะแสดงข้อมูล เป็น years , month , week , day ,  --> `[กำลังดำเนินการ]`
+  - ปรับ ช่องเลือก ช่วงเวลาที่ จะแสดงข้อมูล เป็น years , month , week , day ,  --> `[กำลังดำเนินการ]`
