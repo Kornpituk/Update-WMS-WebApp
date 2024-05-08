@@ -58,4 +58,16 @@
   - ปรับ ขนาดตัวหนังสือ ให้เท่ากัน ตรง หัวข้อ ให้เท่ากับ ตรง navi
   - Font familir ให้เป็นแบบเดียวกัน
   - Label ของ chart donut 4
-  - เพิ่ม version Web WMS APP ลง Fotter 
+  - เพิ่ม version Web WMS APP ลง Fotter
+  - Top Move & non Move
+    - ปรับ Responsive
+  - Performance
+    - เอา ชื่อประเภท Received / Picking ขึ้นมาใส่ ตรงกับ icon
+    - color สามารถ hover ได้ทั้ง แทบล่าง หัวข้อ icon
+    - Card กด เอา ชื่อประเภทมาใส่แทน dddd และทำให้มัน hover ได้ เพิ่ม คำว่า details position end
+    - เอา CardAction ออก
+    - Create Mock Data ให้ ทั้ง Received & Picking
+      - Mock Data Category จะเป็น ข้อมูล ที่ สำเร็จแล้วทั้งหมด ของ Received [ PO, Transfer In,
+      - Other ] / Received [ Transfer Out, Delivery, White Off ]
+      - Mock  Data Item จะเป็นการนำข้อมูล  Mock Data Category มาหาค่าเฉลี่ยน
+    ** ปรับ ช่องเลือก ช่วงเวลาที่ จะแสดงข้อมูล เป็น years , month , week , day ,  --> `[กำลังดำเนินการ]`
