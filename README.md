@@ -84,4 +84,43 @@
     - มี Label แสดง ค่าสูงศุดในแต่ล่ะประเภท
     - ทำ MockData ให้ สามารถแสดงข้อมูลตาม ช่วงเวลา ได้
         - ปรับ การแสดงข้อมูล ให้แสดง ข้อมูลที่ต้องใช้ก่อน และใช้หลัง
-    - เปลี่ยน ปุ่มกดเลือก ช่วงเวลาให้ แสดง Icon กับ ข้อความ 
+    - เปลี่ยน ปุ่มกดเลือก ช่วงเวลาให้ แสดง Icon กับ ข้อความ
+   
+## Version 1.3.2
+### :watch: `10-05-2024`
+
+### dashboard
+  - ทำปุ่ม กดเลือกช่วงเวลาของข้อมูล
+    - าเลือกวัน day วันที่ปัจจุบันจะเป็นค่าดั้งเดิม 
+
+### Stock Update
+  - ตั้งค่า config เรื่อง RFID Tag Non Tag
+  - ตั้งค่า config เรื่อง Digit 
+  - ตั้งค่า ให้ ตาราง ข้อมูลมีขนาดเท่ากัน
+
+### Performance 
+  - Chart Label ใช้ แบ UpperCase ทั้งมหด
+  - เมื่อกดเข้ามาแล้วให้ขึ้นข้อมูลช่วงเวลา today เลย
+  - เปลี่ยน คำตรง ช่วงเวลาให้เป็น Daily, Weekly, Monthly, Yearly
+  - เอาคำสั่ง
+    ```script
+      chartDataAll.value = mockDataFunction(8).dataReceived
+    ```
+    มาไว้ข้างนอก watch เราไม่อย่างงั้นมันจะเป็น ค่า default ทูกครั้ง
+  - Received ---> details
+    - เปลี่ยน คำว่า fileter --> Search
+  - Transfer In ---> details
+    - เปลี่ยน คำว่า fileter --> Search
+  - Other   ---> details
+    - เปลี่ยน คำว่า fileter --> Search
+  - Transfer Out ---> details
+    - เปลี่ยน คำว่า fileter --> Search
+  - Delivery  ---> details
+    - เปลี่ยน คำว่า fileter --> Search
+  - Write Off  ---> details
+    - เปลี่ยน คำว่า fileter --> Search
+      
+  - Move / Non Move
+    - ชื่อ Category กับ Item ใช้ชื่อเดียวกัน
+    - ข้อมูล mock data เว้นช่องว่าที่ชื่อ product
+
