@@ -123,4 +123,26 @@
   - Move / Non Move
     - ชื่อ Category กับ Item ใช้ชื่อเดียวกัน
     - ข้อมูล mock data เว้นช่องว่าที่ชื่อ product
+   
+## Version 1.3.3
+### :watch: `13-05-2024`
 
+### dashboard
+  - เปลี่ยนคำตรงที่ แสดง ทศนิยม มันสลับกัน 
+  - หัวคอมลัมตารางข้อมูล NO -> No. 
+
+### dashboard
+  - ตอนช่องเวลาให้กดที่ ช่องเลยไม่ต้องมีปุ่น
+  - WaraHouse Select --> ทำ function ให้แสดงค่าตามจริง
+  - Date Select
+    - ทำ  function สามารถเลือกเวลาได้ ทั้ง day,week Month หรือ range
+  
+### Inventory
+  - Product Code --> เปลี่ยน c-> C
+  - เพิ่ม column Serial --> Mock Data
+  - เพิ่ม margin ของ ช่อง tag,non tag, serail
+
+### Performance
+  - Day -> Daily
+  - ตัด Years ออก เรียงใหม่เป็น daily -> Weekly -> Monthly
+  - Received – PO
