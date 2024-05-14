@@ -127,11 +127,11 @@
 ## Version 1.3.3
 ### :watch: `13-05-2024`
 
-### dashboard
+### Genaeral 
   - เปลี่ยนคำตรงที่ แสดง ทศนิยม มันสลับกัน 
   - หัวคอมลัมตารางข้อมูล NO -> No. 
 
-### dashboard
+### Dashboard
   - ตอนช่องเวลาให้กดที่ ช่องเลยไม่ต้องมีปุ่น
   - WaraHouse Select --> ทำ function ให้แสดงค่าตามจริง
   - Date Select
@@ -146,3 +146,33 @@
   - Day -> Daily
   - ตัด Years ออก เรียงใหม่เป็น daily -> Weekly -> Monthly
   - Received – PO
+
+## Version 1.3.4
+### :watch: `14-05-2024`
+
+### Genaeral 
+  - เปลี่ยน คำว่า category --> categories 
+  - Setting Side bar เมื่อเปลี่ยนการแสงดผลของตัวเลข แบบบมีทศนิยมกับไม่มีเมื่อกดแล้วสามารถ รีเฟรซหน้าเว็บได้อัตโนมัติ
+  - Thememizer
+    - Digit ปรับเป็นเมื่อradio -> Yes = Show Digit , No = Don’t' Show Digit
+    - Theme color --> ลบ Radio Label ออก เข้าเป็น label check แทน
+  - Setting Config
+    - ปรับให้ checkbox Show Digit ลิ้งค์กับ Theme Customizer Digit
+    - ปรับเมื่อกับ radio คือ check (True) = Show , check (False) = Don't Show
+    - ปรับคำให้เหมือนกัน 
+
+### Dashboard
+  - Warahouse Select --> สามารถเลือก คลังได้แล้ว เมื่อเลือกแล้วกด aaply คลังหลักภายใน เว็บจะเป็นคลังนั้นๆ 
+  - Card ของ Expiry Date, Stock Min Max ไม่ได้ลบ CardTitle เลยทำให้ CardText โดนลงมา เลยทำให้ดูไม่เท่ากับ Product Data, Performance --> ปรับให้เท่ากันแล้วโดนเอา CardTitle  ออกProduct Data --> ต่อเข้ากับ ข้อมูล จาก API แล้ว (เฉพาะข้อมูล summary)
+    - เปลี่ยนสี หลัง ของ Product Data เป็น color Primary 
+  - Expiry Date -->  ต่อเข้ากับ ข้อมูล จาก API แล้ว (เฉพาะข้อมูล summary) 
+  - Stock Min Max -->  ต่อเข้ากับ ข้อมูล จาก API แล้ว (เฉพาะข้อมูล summary)
+    - ตรงช่อง Product ของ ค่า max ใส่ค่า Padding ผิด มากไปจาก Padding ของ min ไป 1 px แก้กับให้มี ค่า padding เท่ากัน คือ 16 px
+  - Performance
+    - เปลี่ยนสี หลัง ของ Product Data เป็น color Amber 
+  - Move / Non Move
+    - Add Categories Product --> เพิ่มระยะห่างระหว่าง titel Categorise กับ Iocn
+      - Bug!! --> เมื่อเลือก ไปคอนแล้วกดเลือกอีกรอบ ชื่อจะซ้อน --> แก้แล้ว โดยเปลี่ยน จาก Autocomplete  -> Select เหตุผลน่าจะมาจาก ที่ Autocomplete   เอาไว้เลือก item ทีละหลายๆ items แต่ เราต้องการเลือกแค่อันเดียว  Select  จึงเหมาะกว่า 
+  
+### Inventory
+  - เอา Serial ออก เพราะหลังจากการประชุม ได้ข้อสรุปว่า ณ ตอนนี้เรายังเอามาแสดงตรง หน้าแรก หรือ ค้นหาจากหน้าแรกได้ --> เอา Unit กลับมาเหมือนเดิม 
