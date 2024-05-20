@@ -179,7 +179,7 @@
   - 
 
 ## Version 1.3.5
-### :watch: `14-05-2024`
+### :watch: `15/16-05-2024`
  
 ### Dashboard
   - Stock Min Max
@@ -197,4 +197,27 @@
     - ใส่ foramte ```.toLocaleString('en-US') ```
       - Total QTY
   - Stock Update
-    - หน้า lot เอา Remark มาไว้ด้านล่าง 
+    - หน้า lot เอา Remark มาไว้ด้านล่าง
+
+## Version 1.3.7
+### :watch: `20-05-2024`
+
+### Dashboard
+  - Expiry Date
+    - สมารถ ใช้ Filter, search, sort, ได้แล้ว
+    - ปรับสีตรง หัวตาราง status เป็นแบบเลือกว่าจะ search อันไหน
+    - Search Status เปลี่ยนสีตามที่เลือกค้นหา
+    - Formart Total ตรง dialog Card 
+  - Min /Max
+    - สมารถ ใช้ Filter, search, sort, ได้แล้ว
+    - ต่อกับ api สมารถ ใช้ Filter, search, sort, ได้แล้ว
+  - Date Data
+    - ปรับวันที่ ให้เป็น วว/ดด/ปปปป จากเดิม ที่เป็น ดด/วว/ปปปป ทั้ง 
+### Inventory
+  - View ---> ปรับให้ช่องค้นหา ตรงหัว คอลัม ปุ่ม Cancel. Reset มีขนาดความกว้าง 100%
+  - Lot ---> ปรับให้ช่องค้นหา ตรงหัว คอลัม ปุ่ม Cancel. Reset มีขนาดความกว้าง 100%
+    - Format Total กับ Non-Tag ให้สามารถ เลือก แสดง ทศนิยมได้ 
+### General
+  - แก้คำผิกจาก EaseTrack --> Easetrack 
+### Set Permission
+### Setting
