@@ -1,6 +1,9 @@
 # Update WMS Web App
+  ### General
+  ### Stock Update
   ### dashboard
-  ### Inventory
+  ### Stock Update
+  ### Product List
   ### Import Data
   ### Set Permission
   ### Setting
@@ -249,3 +252,23 @@
   - ปริ้น --> ใช้งานไม่ได้
   - Create  --> ใช้งานไม่ได้
     - ต้องทำ UI ใหม่
+   
+## Version 1.3.9
+### :watch: `23-05-2024`
+
+### dashboard
+  - Product Data ----> Stock Update
+  - Min -> minimum / Max -> maximumExpiry Date
+    - เหลือวันน้อยๆอยู่บนสุด
+    - Status เอา Reset&Cancel ออก ให้เหลือแค่ Expired
+    - เอา Alert ออก คำว่า Expired เป็นสีแดง
+    - Expiry Date (ตารางข้างบน) —> Expired 
+### Stock Update
+  - Remark เซ็ค
+### Product List
+  - แก้ไขคำผิดนิดหน่อย
+  - สามารถปริ้น Barcode, QRCode  ได้แล้ว
+  - Action
+    - Edite --> ยังไม่ได้ทำ
+    - Print --> ใช้ได้แล้ว
+    - Delete  --> ยังไม่ได้ทำ 
