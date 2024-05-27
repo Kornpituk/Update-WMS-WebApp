@@ -272,3 +272,37 @@
     - Edite --> ยังไม่ได้ทำ
     - Print --> ใช้ได้แล้ว
     - Delete  --> ยังไม่ได้ทำ 
+
+
+## Version 1.3.10
+### :watch: `24-05-2024`
+
+### Inventory  --> เพิ่มเมนูใหม่สำหรับ การแสดงข้อมูล serial ทั้งหมด 
+  - Total Details  --> ทำ UI และทำการ Mock ข้อมูล
+  - Total Summary  --> ทำ UI และทำการ Mock ข้อมูล 
+
+### Product List
+  - ทำการต่อ UI Create เสร็จแล้ว
+  - ทำ funtion Delete
+
+## Version 1.3.11
+### :watch: `27-05-2024`
+
+### Dashboard
+  - Font size ปรับให้ขนาด 16px
+    - Warehouse select, Date select
+### Categories, Sub, Sec , color, UoM, Size
+  -  Label หน้า และ search create ใหม่
+### Product List
+  - Api ``การอัพโหลด / แก้ไข้สินค้า สามารถทำให้ไม่ต้องใส่รูปได้ไหม ปล่อยเป็นค่าว่าง ไม่ต้องส่ง ``
+  - Product List
+    - ต้องการค่า Model, Size, Style, Weight, Unit, Wide, Long, Hight, Uint
+    - Expired Date, Alert, Details
+  - Alert
+    - เปลี่ยน คำว่า "Close" --> "( X )"
+    - Multible --> ลบออก
+  - Create
+    - แก้บัค การอัพโหลดรูปโดย ทีแรก เราต้องกด ลบรูปก่อนที่จะทำหารอัพโหลดรูป แต่ตอนนี้สามารถกดอัพโหลดรูปได้เลย
+    - เปลี่ยน ตำแหน่งของปุ่ม ลบรูป ให้มาอยู่ด้าน ขวาสุด และทำให้เป็นปุ่มมากขึ้นจากที่ เป็นแค่ไอคอน
+  - Edit
+    - สามารถเลือกสินค้าที่หน้า list  เพื่อไปยังหน้า edit ได้  ***แต่ ติดบัค ถ้าเราไม่อัพโหลดรูปใหม่จะไม่สามารถแก้ไขข้อมลสินค้าได้ 
