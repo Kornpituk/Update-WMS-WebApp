@@ -316,12 +316,12 @@
   - Icon ปุ่มกด ให้มีขนาด 30 px
 
 ### Configuration
-#### Product List 
-  - Create
-    - รูปสามารถกดดูได้แบบใหญ่
-  - Edit
-    - รูปสามารถกดดูได้แบบใหญ่
-#### Categories, Sub, Sec , color, UoM, Size
-  - แก้ไขคำผิด Product second/Sub Categories --> Group , Sub Group
-  - แก้ไข รูปแบบ Label Page
-    - เอา search กับ Add มาคนล่ะบันทัดกับ Label Page 
+  - #### Product List 
+    - Create
+      - รูปสามารถกดดูได้แบบใหญ่
+    - Edit
+      - รูปสามารถกดดูได้แบบใหญ่
+  - #### Categories, Sub, Sec , color, UoM, Size
+    - แก้ไขคำผิด Product second/Sub Categories --> Group , Sub Group
+    - แก้ไข รูปแบบ Label Page
+      - เอา search กับ Add มาคนล่ะบันทัดกับ Label Page 
