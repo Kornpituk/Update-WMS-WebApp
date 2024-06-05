@@ -324,4 +324,15 @@
   - #### Categories, Sub, Sec , color, UoM, Size
     - แก้ไขคำผิด Product second/Sub Categories --> Group , Sub Group
     - แก้ไข รูปแบบ Label Page
-      - เอา search กับ Add มาคนล่ะบันทัดกับ Label Page 
+      - เอา search กับ Add มาคนล่ะบันทัดกับ Label Page
+      - 
+## Version 1.3.15
+### :watch: `05-05-2024`
+
+### Dashboard
+  - เพิ่มธีม ที่สามารถกดเปลี่ยนได้ 5 ธีม
+    - :office: `Primary`
+    - :bank: `Warehouse Harmony`
+    - :hotel: `Inventory Insight`
+    - :department_store: `Logistics Luxe`
+    - :city_sunset: `Operation Optimizer`
