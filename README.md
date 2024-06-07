@@ -327,7 +327,7 @@
       - เอา search กับ Add มาคนล่ะบันทัดกับ Label Page
       - 
 ## Version 1.3.15
-### :watch: `05-05-2024`
+### :watch: `05-06-2024`
 
 ### Dashboard
   - เพิ่มธีม ที่สามารถกดเปลี่ยนได้ 5 ธีม
@@ -336,3 +336,45 @@
     - :hotel: `Inventory Insight`
     - :department_store: `Logistics Luxe`
     - :city_sunset: `Operation Optimizer`
+
+## Version 1.3.15-2
+### :watch: `05-06-2024`
+
+### General
+  - แก้ไข บัค ค่าเริ่มต้นให้มีสีเริ่มต้น
+### Dashborad
+  - Date Data
+    - แก้บัค ให้เวลา จากเดิม คือ วันที่เลือก to วันที่ปัจจุบัน 
+  - All Chart
+    - Received Successfully --> Inventory Arrived
+    - Received Pending --> Await Receiced 
+  - Performance
+    - ย้ายตัวเลือกวันที่มา ไว้ ขาวบน พร้อมแสดงว่าเป็นวันที่เท่าไหร่
+### Dashborad
+  - Total Details
+    - เพิ่มคอลัม Weight UoM
+    - เปลี่ยน Mock ข้อมูลใหม่ให้ใกล้เคียงกับของจริง
+  - Total Summary
+    - เพิ่มคอลัม Weight UoM
+    - เปลี่ยน Mock ข้อมูลใหม่ให้ใกล้เคียงกับของจริง
+   
+## Version 1.3.16
+### :watch: `06-06-2024`
+
+### General
+  - ออกแบบ ตัวเลือก ตั้งค่าธีมใหม่ ว่าจะเอาไปไว้ข้างบน หรือข้างล้าง แล้วเลือกไอคอนให้สื่อ
+  - Warehouse Date Select เอามารวมกันโดย เอาข้อมูลวันที่มาอยู่นอกกรอบ Warehouse | Date  | Apply
+  - Setting Nav
+    - ไอคอนต้องเปลี่ยน
+### Dashborad
+  - Performance
+    - หัวข้อ แสดงวันที่ ตาม หน้า dashboard
+    - เมื่อกดแล้วค่อยแสดง เวลาที่ เลือก
+    - Chart
+      - เมื่อปริ้น chart ให้ชื่อแสดงรายละเอียด chart
+      - ทำ config เวลา ว่าเวลาใดเริ่มก่อน
+      - Datepicker
+        - เปลี่ยนให้ ไปใช้ Vue Datepicker แทน
+        - สามารถรับเวลา ได้แล้ว ทั้งแสดง และส่งค่า
+        - กำหนดเงื่อนไข
+          - เวลาต้องไม่เกิน วันที่ เวลา ณ ปัจจุบัน 
