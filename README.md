@@ -380,7 +380,32 @@
           - เวลาต้องไม่เกิน วันที่ เวลา ณ ปัจจุบัน
          
 
-## Version 1.3.18-3
+## Version 1.3.18
 ### :watch: `10-14/06/2024`
 
-`*** Comming soon ***`
+### General
+  - ปรับ การแสดงข้อมูล Barcode ใหม่ทั้งหมด
+### Dashborad
+  - ปรับ UI ตรงเลือก คลัง กลับ วันที่
+    - ปรับให้ วันที่แสดง เวลาด้วย และทำให้มีขนาดใหญ่ขึ้น
+  - Performance
+    - ปรับ ข้อความตรง หัว Dialog ใส่ วันที่กับ คลังเข้ามา
+      - ปรับให้ วันที่แสดง เวลาด้วย
+    - แก้ Bug เมื่อกดดู Details แล้ว กดปิด Dialog Performance แล้วกดรีเฟรซ หรือ กดหน้าอื่น แล้วกลับมาหน้า Dashboard , Dialog จะปรกฏ ----> ตอนนี้ ทำให้เมื่อกดปิด Dialog ไปแล้ว Dialog จะไม่ปรากฏอีก
+    - Datepicker
+      - Formate Week ( type iso -> local )
+      - ปรับ UI ใหม่ ที่ View
+    - Chart
+      - Date Picker
+        - สามารถเลือกวันที่ได้แล้ว
+        - สามารถเลือกรูปแบบ การแสดงchartได้ (time/day)
+      - Received
+        - Transaction --> Transaction Received/Picking
+        - PO | Transfer In  | Other  --> conect api complete
+      - Picking
+        - Delivery | Transfer Out | White Off --> conect api complete
+      - Details
+        - conect data api *** Filter ยังใช้ไมได้ Export ยังใช้ไม่ได้
+       
+### Inventory
+  - แก้ไข บัค การ config RFID ( StockUpdate --> View --> Lot ) 
