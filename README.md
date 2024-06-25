@@ -406,6 +406,19 @@
         - Delivery | Transfer Out | White Off --> conect api complete
       - Details
         - conect data api *** Filter ยังใช้ไมได้ Export ยังใช้ไม่ได้
-       
 ### Inventory
-  - แก้ไข บัค การ config RFID ( StockUpdate --> View --> Lot ) 
+  - แก้ไข บัค การ config RFID ( StockUpdate --> View --> Lot )
+
+
+## Version 1.3.19
+### :watch: `17-20/06/2024`
+
+### General
+  - เทสบาร์โค้ด --> ทางเว็บเองไม่ได้ติดปัญหาอะไร สามารถอ่านได้ (ไม่เกิน 23 ตัวอักษร์)  
+### Dashborad
+  - Performance
+    - Chart
+      - แก้ไขบัค เมื่อใช้ข้อมูลจาก History แล้ว กราฟ pie ไม่ขึ้น
+    - Details
+      - 6 Details add Filter --> ต่อ API Filter แล้ว ** แต่มีบาง ตัวที่ยังไม่ได้
+      - ทำระบบ Hisstory  --> เมื่อกดเลือกช่วงเวลาแล้ว กดเข้าไปดู details จากนั้นเมื่อกด ออกมายังหน้า chart ประวัติช่วงเวลาที่เราค้นหาก่อนหน้าจะยังคงอยู่ 
