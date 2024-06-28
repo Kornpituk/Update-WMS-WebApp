@@ -411,7 +411,7 @@
 
 
 ## Version 1.3.19
-### :watch: `17-20/06/2024`
+### :watch: `17-21/06/2024`
 
 ### General
   - เทสบาร์โค้ด --> ทางเว็บเองไม่ได้ติดปัญหาอะไร สามารถอ่านได้ (ไม่เกิน 23 ตัวอักษร์)  
@@ -421,4 +421,23 @@
       - แก้ไขบัค เมื่อใช้ข้อมูลจาก History แล้ว กราฟ pie ไม่ขึ้น
     - Details
       - 6 Details add Filter --> ต่อ API Filter แล้ว ** แต่มีบาง ตัวที่ยังไม่ได้
-      - ทำระบบ Hisstory  --> เมื่อกดเลือกช่วงเวลาแล้ว กดเข้าไปดู details จากนั้นเมื่อกด ออกมายังหน้า chart ประวัติช่วงเวลาที่เราค้นหาก่อนหน้าจะยังคงอยู่ 
+      - ทำระบบ Hisstory  --> เมื่อกดเลือกช่วงเวลาแล้ว กดเข้าไปดู details จากนั้นเมื่อกด ออกมายังหน้า chart ประวัติช่วงเวลาที่เราค้นหาก่อนหน้าจะยังคงอยู่
+
+     
+## Version 1.3.20
+### :watch: `24-28/06/2024`
+
+### WMS
+  - ต่อ Export API Expired date เสร็จเรียบร้อย  
+  - รอ Export Min/Max 
+  - รอ Export Performance 
+  - รอ API Get Performance 
+### SKT
+  - UI Form ขาเข้าทำ เสร็จ 3 แบบ --> แต่ ต้องทำให้ UI รองรับการ ดึงข้อมูลมาลงตาราง
+    - Raw Material Insoection Request Form
+    - Raw Material Receiveing From
+    - Packaging Inspection Request From
+  - UI Form ขาออกทำ เสร็จ 3 แบบ --> แต่ ต้องทำให้ UI รองรับการ ดึงข้อมูลมาลงตาราง
+    - Gallon
+    - Paper Bag
+    - Sheet Drum 
